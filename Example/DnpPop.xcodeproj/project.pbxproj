@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		0B1724B8F1CD4340E0150956 /* Pods_DnpPop_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DnpPop_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		153A05867B148E7505F8C651 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		153A05867B148E7505F8C651 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		51F5C8A7100BEE0356D09EBD /* Pods-DnpPop_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DnpPop_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DnpPop_Tests/Pods-DnpPop_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		554D1BB16123BCD1EEFC525D /* Pods-DnpPop_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DnpPop_Example.release.xcconfig"; path = "Target Support Files/Pods-DnpPop_Example/Pods-DnpPop_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DnpPop_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DnpPop_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,8 +42,8 @@
 		607FACE51AFB9204008FA782 /* DnpPop_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DnpPop_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		69CF0B1B89C0F122F454F5A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		89FC5F9FAF01DD51BA968740 /* DnpPop.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DnpPop.podspec; path = ../DnpPop.podspec; sourceTree = "<group>"; };
+		69CF0B1B89C0F122F454F5A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		89FC5F9FAF01DD51BA968740 /* DnpPop.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DnpPop.podspec; path = ../DnpPop.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C2E5657C303BF38B8AC981E1 /* Pods-DnpPop_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DnpPop_Example.debug.xcconfig"; path = "Target Support Files/Pods-DnpPop_Example/Pods-DnpPop_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D0C20B9D9D27DF442170A2D5 /* Pods-DnpPop_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DnpPop_Tests.release.xcconfig"; path = "Target Support Files/Pods-DnpPop_Tests/Pods-DnpPop_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F1CF5287A30CBCD05DFAA204 /* Pods_DnpPop_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DnpPop_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,7 +77,6 @@
 				51F5C8A7100BEE0356D09EBD /* Pods-DnpPop_Tests.debug.xcconfig */,
 				D0C20B9D9D27DF442170A2D5 /* Pods-DnpPop_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

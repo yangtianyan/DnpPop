@@ -1,0 +1,16 @@
+PODS:
+  - DnpPop (0.1.0)
+
+DEPENDENCIES:
+  - DnpPop (from `../`)
+
+EXTERNAL SOURCES:
+  DnpPop:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DnpPop: 431348b749fc702d9ba28c771633dc12ee256fb7
+
+PODFILE CHECKSUM: 089cbfe18aae4e584db587ff63041ec7921223e4
+
+COCOAPODS: 1.7.5

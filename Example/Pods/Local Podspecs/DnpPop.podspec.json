@@ -1,0 +1,22 @@
+{
+  "name": "DnpPop",
+  "version": "0.1.0",
+  "summary": "A short description of DnpPop.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zomfice@gmail.com/DnpPop",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zomfice@gmail.com": "songchaofeng6@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/zomfice@gmail.com/DnpPop.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DnpPop/Classes/**/*"
+}

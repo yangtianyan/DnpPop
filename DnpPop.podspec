@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DnpPop'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of DnpPop.'
+  s.version          = '1.0.0'
+  s.summary          = 'A pop control in swift'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,16 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/zomfice@gmail.com/DnpPop'
+  s.homepage         = 'https://github.com/Zomfice/DnpPop'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zomfice@gmail.com' => 'songchaofeng6@hotmail.com' }
-  s.source           = { :git => 'https://github.com/zomfice@gmail.com/DnpPop.git', :tag => s.version.to_s }
+  s.author           = { 'zomfice@gmail.com' => 'zomfice@gmail.com' }
+  s.source           = { :git => 'https://github.com/Zomfice/DnpPop.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'DnpPop/Classes/**/*'
+  s.swift_version = '4.2'
   
   # s.resource_bundles = {
   #   'DnpPop' => ['DnpPop/Assets/*.png']

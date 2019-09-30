@@ -1,0 +1,6 @@
+framework module DnpPop {
+  umbrella header "DnpPop-umbrella.h"
+
+  export *
+  module * { export * }
+}
