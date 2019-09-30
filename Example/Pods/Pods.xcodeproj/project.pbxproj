@@ -13,8 +13,8 @@
 		5514E0650A074074324E855018131DCF /* DnpPop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41FBE897DA44017FDCBB1CAACFAE0F15 /* DnpPop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CC6178981865BFB0AF47D5FA6991C53 /* Pods-DnpPop_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4736541903A881F9ACA736D3E86136C9 /* Pods-DnpPop_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76417AD7CB97DFDC92F07311636607EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A75117A66604C59DA6DDBBF9D98A8885 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4127B2769EAACB1FF1B3033E0DF3667E /* ReplaceMe.swift */; };
 		C1715D745E45F4DA45BCB38EDD8BE9AA /* Pods-DnpPop_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E87AC9C00FA751DA9D0E88AE0086C1 /* Pods-DnpPop_Tests-dummy.m */; };
+		EF837E1F2341FA43001CACA0 /* SomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF837E1E2341FA43001CACA0 /* SomeView.swift */; };
 		F3DDF7BFEE9DE873797C534DA6C8BF33 /* Pods-DnpPop_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5A1F83AF465FC2F843138FA4F4C697 /* Pods-DnpPop_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCBE9F97B15E3801304296989BA07076 /* DnpPop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E106B51E97017F476FD97DA2AB16EC /* DnpPop-dummy.m */; };
 /* End PBXBuildFile section */
@@ -44,30 +44,30 @@
 		20698DC9E555937597ED33DCB9289B21 /* Pods-DnpPop_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DnpPop_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		397FCD6A63ADE8F390DAE776299D1AD2 /* DnpPop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DnpPop.xcconfig; sourceTree = "<group>"; };
-		4127B2769EAACB1FF1B3033E0DF3667E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DnpPop/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		41FBE897DA44017FDCBB1CAACFAE0F15 /* DnpPop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DnpPop-umbrella.h"; sourceTree = "<group>"; };
-		42BC0A5FAE2E65193C63DFF5DDE1020E /* DnpPop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DnpPop.framework; path = DnpPop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BC0A5FAE2E65193C63DFF5DDE1020E /* DnpPop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DnpPop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		455E885C00BDB51BC50A5D4A42491A25 /* Pods-DnpPop_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DnpPop_Tests-Info.plist"; sourceTree = "<group>"; };
 		4736541903A881F9ACA736D3E86136C9 /* Pods-DnpPop_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DnpPop_Example-umbrella.h"; sourceTree = "<group>"; };
-		50665A94A2F1BA5D5FF3D54D88A5FB34 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		50665A94A2F1BA5D5FF3D54D88A5FB34 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		61DAE3B3820E706F9FE99C062C4ECFF3 /* Pods-DnpPop_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DnpPop_Tests.modulemap"; sourceTree = "<group>"; };
 		68E106B51E97017F476FD97DA2AB16EC /* DnpPop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DnpPop-dummy.m"; sourceTree = "<group>"; };
 		6F5A1F83AF465FC2F843138FA4F4C697 /* Pods-DnpPop_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DnpPop_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8004752A9DD376F554984C9C7184E455 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8004752A9DD376F554984C9C7184E455 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8096E96DCCDFDE07A0324CBF09551AC2 /* Pods-DnpPop_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DnpPop_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8E5DD1ABB5FAE5E287423B6B2CCC6EEF /* DnpPop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DnpPop-prefix.pch"; sourceTree = "<group>"; };
-		977EFDBB5EEB05023071AADD7CAEE6F2 /* Pods_DnpPop_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DnpPop_Example.framework; path = "Pods-DnpPop_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		977EFDBB5EEB05023071AADD7CAEE6F2 /* Pods_DnpPop_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DnpPop_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97E87AC9C00FA751DA9D0E88AE0086C1 /* Pods-DnpPop_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DnpPop_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F62047C2E0B85EF98F5BA3F68FD3308 /* Pods_DnpPop_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DnpPop_Tests.framework; path = "Pods-DnpPop_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F62047C2E0B85EF98F5BA3F68FD3308 /* Pods_DnpPop_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DnpPop_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36876889E11C992AB28F6DF6D2476DA /* Pods-DnpPop_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DnpPop_Example-dummy.m"; sourceTree = "<group>"; };
-		A4926655928C14C333700DA91B4677A8 /* DnpPop.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DnpPop.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4926655928C14C333700DA91B4677A8 /* DnpPop.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DnpPop.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C0EEC6A596AB01BDCC15715C0E41A7EA /* Pods-DnpPop_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DnpPop_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D3B5ED9E621A425C905520566D845B30 /* Pods-DnpPop_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DnpPop_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D3ECEE0D26BF91B138242A5D1035F568 /* Pods-DnpPop_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DnpPop_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E10806C695C838BEB73787B2D2711EDE /* Pods-DnpPop_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DnpPop_Example-Info.plist"; sourceTree = "<group>"; };
 		E10F20250084FBF5F0A2FFC1A905BEE6 /* Pods-DnpPop_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DnpPop_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EC54C0777CBEB5ACFE1E46068368517F /* Pods-DnpPop_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DnpPop_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF837E1E2341FA43001CACA0 /* SomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SomeView.swift; path = DnpPop/Classes/SomeView.swift; sourceTree = "<group>"; };
 		FE0A747FC0DA11A2179FA864A2D7DC08 /* Pods-DnpPop_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DnpPop_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -184,7 +184,7 @@
 		C13094033C32C636C3ECCF7AFBD15908 /* DnpPop */ = {
 			isa = PBXGroup;
 			children = (
-				4127B2769EAACB1FF1B3033E0DF3667E /* ReplaceMe.swift */,
+				EF837E1E2341FA43001CACA0 /* SomeView.swift */,
 				D1D8D12942624B8E5FDE7AAE54DA5FCD /* Pod */,
 				185473514237AFD8463D308376234516 /* Support Files */,
 			);
@@ -365,7 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCBE9F97B15E3801304296989BA07076 /* DnpPop-dummy.m in Sources */,
-				A75117A66604C59DA6DDBBF9D98A8885 /* ReplaceMe.swift in Sources */,
+				EF837E1F2341FA43001CACA0 /* SomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,8 +653,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
