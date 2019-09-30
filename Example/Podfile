@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DnpPop_Example' do
+  pod 'DnpPop', :path => '../'
+
+  target 'DnpPop_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
