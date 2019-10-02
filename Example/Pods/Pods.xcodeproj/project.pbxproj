@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01F393291593ED3111A395EAC7BE31AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		01A49C30C5D30B6586795E0400109136 /* PopTip+Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF731B8C6BE9F17F8D020DE134CF9113 /* PopTip+Draw.swift */; };
 		4299E1A1904149139FC1860D225F8A95 /* Pods-DnpPop_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A36876889E11C992AB28F6DF6D2476DA /* Pods-DnpPop_Example-dummy.m */; };
-		4D4C12FAC3CCB92081C957BB3BD1C438 /* SomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32D22D02447ED7369CC7DBF3992F697 /* SomeView.swift */; };
 		52FEBA0BB579A19590DB8B9397B476A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5514E0650A074074324E855018131DCF /* DnpPop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D3BD8D4D596DE505B0F56EA894BBAE7 /* DnpPop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CC6178981865BFB0AF47D5FA6991C53 /* Pods-DnpPop_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4736541903A881F9ACA736D3E86136C9 /* Pods-DnpPop_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FA2A82A10B9A3ED6571E42D0FD5F3E4 /* PopTip+Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2356F0DA587AA27CF1613CD21CF6B852 /* PopTip+Transitions.swift */; };
 		76417AD7CB97DFDC92F07311636607EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		AF69D17DC299C7B02A53CD8B5BF28A74 /* DnpPop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 325C71FE5B9E7DCED9DC8003C4508C16 /* DnpPop-dummy.m */; };
+		98360C7C3AC1E1735A1127E7B61F72F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9C4C619D3E09FE671BE9469B4013CCE8 /* DnpPop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CC8F15FE7AA3DA5A8C96808D7AE1285 /* DnpPop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1715D745E45F4DA45BCB38EDD8BE9AA /* Pods-DnpPop_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E87AC9C00FA751DA9D0E88AE0086C1 /* Pods-DnpPop_Tests-dummy.m */; };
+		C1D5009814AD4FA91D4F31A615B4D901 /* DnpPop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A859DE844E4C67851B525FF19D88E6 /* DnpPop-dummy.m */; };
+		D88DCA5E38242E046E131E233FB0AE5E /* PopTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F64DF879B8631AED41F4CF992A6F831 /* PopTip.swift */; };
 		F3DDF7BFEE9DE873797C534DA6C8BF33 /* Pods-DnpPop_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5A1F83AF465FC2F843138FA4F4C697 /* Pods-DnpPop_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -39,36 +41,38 @@
 /* Begin PBXFileReference section */
 		16AFE096E6F2E90B6C36E541382618A2 /* Pods-DnpPop_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DnpPop_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		18B7B09A2315E4C0664551D5A6E719D7 /* Pods-DnpPop_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DnpPop_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1C3F5308FCE735E156BD9F098E546E55 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		20698DC9E555937597ED33DCB9289B21 /* Pods-DnpPop_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DnpPop_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2356F0DA587AA27CF1613CD21CF6B852 /* PopTip+Transitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopTip+Transitions.swift"; path = "DnpPop/Classes/PopTip+Transitions.swift"; sourceTree = "<group>"; };
+		2F64DF879B8631AED41F4CF992A6F831 /* PopTip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopTip.swift; path = DnpPop/Classes/PopTip.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		325C71FE5B9E7DCED9DC8003C4508C16 /* DnpPop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DnpPop-dummy.m"; sourceTree = "<group>"; };
-		42BC0A5FAE2E65193C63DFF5DDE1020E /* DnpPop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DnpPop.framework; path = DnpPop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BC0A5FAE2E65193C63DFF5DDE1020E /* DnpPop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DnpPop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		455E885C00BDB51BC50A5D4A42491A25 /* Pods-DnpPop_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DnpPop_Tests-Info.plist"; sourceTree = "<group>"; };
 		4736541903A881F9ACA736D3E86136C9 /* Pods-DnpPop_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DnpPop_Example-umbrella.h"; sourceTree = "<group>"; };
-		5D3BD8D4D596DE505B0F56EA894BBAE7 /* DnpPop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DnpPop-umbrella.h"; sourceTree = "<group>"; };
 		61DAE3B3820E706F9FE99C062C4ECFF3 /* Pods-DnpPop_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DnpPop_Tests.modulemap"; sourceTree = "<group>"; };
+		61DDD367CB95E1B5E9CCC7F0B4ED7DF2 /* DnpPop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DnpPop.xcconfig; sourceTree = "<group>"; };
 		6F5A1F83AF465FC2F843138FA4F4C697 /* Pods-DnpPop_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DnpPop_Tests-umbrella.h"; sourceTree = "<group>"; };
-		70271EF365E2B267A41DE783D49F1991 /* DnpPop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DnpPop.xcconfig; sourceTree = "<group>"; };
 		8096E96DCCDFDE07A0324CBF09551AC2 /* Pods-DnpPop_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DnpPop_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		977EFDBB5EEB05023071AADD7CAEE6F2 /* Pods_DnpPop_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DnpPop_Example.framework; path = "Pods-DnpPop_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CFEB6F166C301F56B8E6A91D708A47D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		90A859DE844E4C67851B525FF19D88E6 /* DnpPop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DnpPop-dummy.m"; sourceTree = "<group>"; };
+		956E37FD661977CCDB3ED0397A35CECB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		977EFDBB5EEB05023071AADD7CAEE6F2 /* Pods_DnpPop_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DnpPop_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97E87AC9C00FA751DA9D0E88AE0086C1 /* Pods-DnpPop_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DnpPop_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F62047C2E0B85EF98F5BA3F68FD3308 /* Pods_DnpPop_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DnpPop_Tests.framework; path = "Pods-DnpPop_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CC8F15FE7AA3DA5A8C96808D7AE1285 /* DnpPop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DnpPop-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F62047C2E0B85EF98F5BA3F68FD3308 /* Pods_DnpPop_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DnpPop_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36876889E11C992AB28F6DF6D2476DA /* Pods-DnpPop_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DnpPop_Example-dummy.m"; sourceTree = "<group>"; };
-		B32D22D02447ED7369CC7DBF3992F697 /* SomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SomeView.swift; path = DnpPop/Classes/SomeView.swift; sourceTree = "<group>"; };
-		BC97394438FD72628135DDCCA85D875B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A997AA24C20D47865A868905A9748675 /* DnpPop-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DnpPop-Info.plist"; sourceTree = "<group>"; };
+		AF731B8C6BE9F17F8D020DE134CF9113 /* PopTip+Draw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopTip+Draw.swift"; path = "DnpPop/Classes/PopTip+Draw.swift"; sourceTree = "<group>"; };
+		B14F265E09E3A221B63FB95033558363 /* DnpPop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DnpPop.modulemap; sourceTree = "<group>"; };
 		C0EEC6A596AB01BDCC15715C0E41A7EA /* Pods-DnpPop_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DnpPop_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D36B4FC7E27ACB8005355CA082E6364E /* DnpPop.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DnpPop.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D3B5ED9E621A425C905520566D845B30 /* Pods-DnpPop_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DnpPop_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D3ECEE0D26BF91B138242A5D1035F568 /* Pods-DnpPop_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DnpPop_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8189EB4D8850E04688B8BE06E5CBED6 /* DnpPop.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DnpPop.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E10806C695C838BEB73787B2D2711EDE /* Pods-DnpPop_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DnpPop_Example-Info.plist"; sourceTree = "<group>"; };
 		E10F20250084FBF5F0A2FFC1A905BEE6 /* Pods-DnpPop_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DnpPop_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E5E9A61FC2D9FBB1135B99FE2A9FEE34 /* DnpPop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DnpPop-prefix.pch"; sourceTree = "<group>"; };
 		EC54C0777CBEB5ACFE1E46068368517F /* Pods-DnpPop_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DnpPop_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F417254068F3FE599EA1775EACAB3092 /* DnpPop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DnpPop.modulemap; sourceTree = "<group>"; };
+		F5854008AA6235758861B6CDC49BA516 /* DnpPop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DnpPop-prefix.pch"; sourceTree = "<group>"; };
 		FE0A747FC0DA11A2179FA864A2D7DC08 /* Pods-DnpPop_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DnpPop_Example.modulemap"; sourceTree = "<group>"; };
-		FFAC02DFCBC025F51E2810C3CFB56AA1 /* DnpPop-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DnpPop-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,19 +84,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54358C12571EEA31BEEABD38385BD20E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				01F393291593ED3111A395EAC7BE31AB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		548C298A255CEA2E93BE456713DA8520 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				76417AD7CB97DFDC92F07311636607EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E73B0FCA8E916CF6DDACDDA3CCE195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98360C7C3AC1E1735A1127E7B61F72F2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +118,24 @@
 			);
 			name = "Pods-DnpPop_Example";
 			path = "Target Support Files/Pods-DnpPop_Example";
+			sourceTree = "<group>";
+		};
+		087460B9A9EA889897E3B306613AF1EE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D8189EB4D8850E04688B8BE06E5CBED6 /* DnpPop.podspec */,
+				956E37FD661977CCDB3ED0397A35CECB /* LICENSE */,
+				8CFEB6F166C301F56B8E6A91D708A47D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0F0324906D4554EE0DACE73632526EC8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBEF4963509AD708BAEE7E91E90C6027 /* DnpPop */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		1BCAA081778CF0DE04BD79DA83E05401 /* Pods-DnpPop_Tests */ = {
@@ -142,14 +164,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		69817260C2CCDB2E2E270ABC2D65F2A5 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A6F0D6CB47C292377D283E94B048A1D4 /* DnpPop */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		9CA8B22477B583034A1F29747C13C373 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,27 +171,6 @@
 				1BCAA081778CF0DE04BD79DA83E05401 /* Pods-DnpPop_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		A53240D594E3464AE6F766CFBCABBAE7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D36B4FC7E27ACB8005355CA082E6364E /* DnpPop.podspec */,
-				1C3F5308FCE735E156BD9F098E546E55 /* LICENSE */,
-				BC97394438FD72628135DDCCA85D875B /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		A6F0D6CB47C292377D283E94B048A1D4 /* DnpPop */ = {
-			isa = PBXGroup;
-			children = (
-				B32D22D02447ED7369CC7DBF3992F697 /* SomeView.swift */,
-				A53240D594E3464AE6F766CFBCABBAE7 /* Pod */,
-				C09029FC377C9C906770AB060426C8E6 /* Support Files */,
-			);
-			name = DnpPop;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -188,25 +181,11 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C09029FC377C9C906770AB060426C8E6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F417254068F3FE599EA1775EACAB3092 /* DnpPop.modulemap */,
-				70271EF365E2B267A41DE783D49F1991 /* DnpPop.xcconfig */,
-				325C71FE5B9E7DCED9DC8003C4508C16 /* DnpPop-dummy.m */,
-				FFAC02DFCBC025F51E2810C3CFB56AA1 /* DnpPop-Info.plist */,
-				E5E9A61FC2D9FBB1135B99FE2A9FEE34 /* DnpPop-prefix.pch */,
-				5D3BD8D4D596DE505B0F56EA894BBAE7 /* DnpPop-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DnpPop";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				69817260C2CCDB2E2E270ABC2D65F2A5 /* Development Pods */,
+				0F0324906D4554EE0DACE73632526EC8 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				50043E31F5D4B14E625C110E9E3475F9 /* Products */,
 				9CA8B22477B583034A1F29747C13C373 /* Targets Support Files */,
@@ -221,6 +200,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DDF76A32EB5BB83F7E8F27F6682C6976 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B14F265E09E3A221B63FB95033558363 /* DnpPop.modulemap */,
+				61DDD367CB95E1B5E9CCC7F0B4ED7DF2 /* DnpPop.xcconfig */,
+				90A859DE844E4C67851B525FF19D88E6 /* DnpPop-dummy.m */,
+				A997AA24C20D47865A868905A9748675 /* DnpPop-Info.plist */,
+				F5854008AA6235758861B6CDC49BA516 /* DnpPop-prefix.pch */,
+				9CC8F15FE7AA3DA5A8C96808D7AE1285 /* DnpPop-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DnpPop";
+			sourceTree = "<group>";
+		};
+		EBEF4963509AD708BAEE7E91E90C6027 /* DnpPop */ = {
+			isa = PBXGroup;
+			children = (
+				2F64DF879B8631AED41F4CF992A6F831 /* PopTip.swift */,
+				AF731B8C6BE9F17F8D020DE134CF9113 /* PopTip+Draw.swift */,
+				2356F0DA587AA27CF1613CD21CF6B852 /* PopTip+Transitions.swift */,
+				087460B9A9EA889897E3B306613AF1EE /* Pod */,
+				DDF76A32EB5BB83F7E8F27F6682C6976 /* Support Files */,
+			);
+			name = DnpPop;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -232,11 +238,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AF0013C6393564861A7E8B60E97D497 /* Headers */ = {
+		7A392E147370A252D1A9698247689E76 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5514E0650A074074324E855018131DCF /* DnpPop-umbrella.h in Headers */,
+				9C4C619D3E09FE671BE9469B4013CCE8 /* DnpPop-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,12 +278,12 @@
 		};
 		E7EE90BC51D1137DF0D488A4B14C757D /* DnpPop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 56212EB9B06DC12AD1C98E45702FF899 /* Build configuration list for PBXNativeTarget "DnpPop" */;
+			buildConfigurationList = 2597AE7F58F3F1A9130E5A1476E9AC23 /* Build configuration list for PBXNativeTarget "DnpPop" */;
 			buildPhases = (
-				8AF0013C6393564861A7E8B60E97D497 /* Headers */,
-				8349757B6B7A837A1068ED67D5F49BF1 /* Sources */,
-				54358C12571EEA31BEEABD38385BD20E /* Frameworks */,
-				7D6F061558C14A51A407C9F1DF84020C /* Resources */,
+				7A392E147370A252D1A9698247689E76 /* Headers */,
+				77E1811CCD0954155B191F4943B5FE5C /* Sources */,
+				97E73B0FCA8E916CF6DDACDDA3CCE195 /* Frameworks */,
+				1F05A8FCD8AA4D0DF8C786DACFE350C4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -336,7 +342,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7D6F061558C14A51A407C9F1DF84020C /* Resources */ = {
+		1F05A8FCD8AA4D0DF8C786DACFE350C4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,12 +366,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8349757B6B7A837A1068ED67D5F49BF1 /* Sources */ = {
+		77E1811CCD0954155B191F4943B5FE5C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF69D17DC299C7B02A53CD8B5BF28A74 /* DnpPop-dummy.m in Sources */,
-				4D4C12FAC3CCB92081C957BB3BD1C438 /* SomeView.swift in Sources */,
+				C1D5009814AD4FA91D4F31A615B4D901 /* DnpPop-dummy.m in Sources */,
+				01A49C30C5D30B6586795E0400109136 /* PopTip+Draw.swift in Sources */,
+				6FA2A82A10B9A3ED6571E42D0FD5F3E4 /* PopTip+Transitions.swift in Sources */,
+				D88DCA5E38242E046E131E233FB0AE5E /* PopTip.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +477,38 @@
 			};
 			name = Debug;
 		};
+		3859BA95ACA351B06E7C330C7CDAF278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61DDD367CB95E1B5E9CCC7F0B4ED7DF2 /* DnpPop.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DnpPop/DnpPop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DnpPop/DnpPop-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DnpPop/DnpPop.modulemap";
+				PRODUCT_MODULE_NAME = DnpPop;
+				PRODUCT_NAME = DnpPop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		42BD1A50C73DFF0E2A57683F281BF99C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0EEC6A596AB01BDCC15715C0E41A7EA /* Pods-DnpPop_Example.release.xcconfig */;
@@ -503,9 +543,9 @@
 			};
 			name = Release;
 		};
-		62783BD0D8F9E0A1BCB5DB4780B41838 /* Release */ = {
+		58EE87EC30AA0C2B7CD999B381B5A5E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70271EF365E2B267A41DE783D49F1991 /* DnpPop.xcconfig */;
+			baseConfigurationReference = 61DDD367CB95E1B5E9CCC7F0B4ED7DF2 /* DnpPop.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -529,11 +569,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		93FA4156E989F8238F1ABB418E02C8E0 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -622,8 +661,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -693,37 +731,6 @@
 			};
 			name = Debug;
 		};
-		D8195921647A0107C1F1558E48484903 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70271EF365E2B267A41DE783D49F1991 /* DnpPop.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DnpPop/DnpPop-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DnpPop/DnpPop-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DnpPop/DnpPop.modulemap";
-				PRODUCT_MODULE_NAME = DnpPop;
-				PRODUCT_NAME = DnpPop;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -732,6 +739,15 @@
 			buildConfigurations = (
 				11FDE1B6B5C5181FA6E556961CF92354 /* Debug */,
 				93FA4156E989F8238F1ABB418E02C8E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2597AE7F58F3F1A9130E5A1476E9AC23 /* Build configuration list for PBXNativeTarget "DnpPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58EE87EC30AA0C2B7CD999B381B5A5E0 /* Debug */,
+				3859BA95ACA351B06E7C330C7CDAF278 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -750,15 +766,6 @@
 			buildConfigurations = (
 				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
 				B0087CB4594321EF41619F3181FE120E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		56212EB9B06DC12AD1C98E45702FF899 /* Build configuration list for PBXNativeTarget "DnpPop" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D8195921647A0107C1F1558E48484903 /* Debug */,
-				62783BD0D8F9E0A1BCB5DB4780B41838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -9,6 +9,8 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+项目Fork于[AMPopTip](https://github.com/andreamazz/AMPopTip), 解决不兼容OC的问题
+
 ## Requirements
 
 ## Installation
@@ -20,9 +22,13 @@ it, simply add the following line to your Podfile:
 pod 'DnpPop'
 ```
 
+## Record
+
+2019-10-3 Support OC Bridge, Support Arrow Postion Change And Setting
+
 ## Author
 
-zomfice@gmail.com, songchaofeng6@hotmail.com
+zomfice@gmail.com
 
 ## License
 
