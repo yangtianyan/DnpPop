@@ -15,7 +15,22 @@ class ViewController: UIViewController {
       case center, topLeft, topRight, bottomLeft, bottomRight,bottomCenter,bottomSmall
     }
     
+    var direction = DnpPopDirection.up
+    var topRightDirection = DnpPopDirection.down
+    var timer: Timer? = nil
+    
     let popTip = DnpPop()
+    
+    let /* Rival Sons's Tied Up */ lyrics = [
+      "Go to the dark side full moon",
+      "You shoot the apple off of my head",
+      "'Cause your love, sweet love, is all that you put me through",
+      "And honey without it you know I'd rather be dead",
+      "I'm tied up",
+      "I'm tangled up",
+      "And I'm all wrapped up",
+      "In you"
+    ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,6 +61,7 @@ class ViewController: UIViewController {
 
     @IBAction func action(_ sender: UIButton) {
         guard let button = ButtonType(rawValue: sender.tag) else { return }
+        timer?.invalidate()
         popTip.arrowRadius = 0
         popTip.arrowOffset = 0
         popTip.bubbleOffset = 0
@@ -61,7 +77,14 @@ class ViewController: UIViewController {
             popTip.bubbleColor = UIColor(red: 0.81, green: 0.04, blue: 0.14, alpha: 1)
             popTip.show(text: "Animated popover, great for subtle UI tips and onboarding", direction: .up, maxWidth: 200, in: view, from: sender.frame)
         case .topRight:
-            fatalError()
+            popTip.bubbleColor = UIColor(red: 0.97, green: 0.9, blue: 0.23, alpha: 1)
+            if topRightDirection == .left {
+              topRightDirection = .down
+            } else {
+              topRightDirection = .left
+            }
+            popTip.show(text: "I have a offset to move the bubble down or left side.", direction: topRightDirection, maxWidth: 150, in: view, from: sender.frame)
+            
         case .bottomLeft:
             popTip.arrowOffset = 20//15
             popTip.bubbleOffset =  20
@@ -90,13 +113,18 @@ class ViewController: UIViewController {
             popTip.bubbleColor = UIColor.clear
             let cornerView = UIImageView(frame: CGRect(x: 0, y: 0, width: 282, height: 64))
             cornerView.image = UIImage(named: "pop")
-            //cornerView.backgroundColor = UIColor(red: 0.97, green: 0.9, blue: 0.23, alpha: 1)
-            //cornerView.layer.cornerRadius = 32
-            //popTip.cornerRadius = 32
             popTip.show(customView: cornerView, direction: .up, in: self.view, from: sender.frame)
         
         case .center:
-            fatalError()
+            popTip.arrowRadius = 2
+            popTip.bubbleColor = UIColor(red: 0.31, green: 0.57, blue: 0.87, alpha: 1)
+            popTip.show(text: "Animated popover, great for subtle UI tips and onboarding", direction: direction, maxWidth: 200, in: view, from: sender.frame)
+            direction = direction.cycleDirection()
+            if #available(iOS 10.0, *) {
+                timer = Timer.scheduledTimer(withTimeInterval: 2, repeats: true) { (_) in
+                    self.popTip.update(text: self.lyrics.sample())
+                }
+            }
         case .bottomCenter:
             let containView = UIView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width - 100, height: 80))
             let label = UILabel(frame: CGRect(x: 10, y: 10, width: UIScreen.main.bounds.size.width - 120, height: 60))
@@ -112,3 +140,26 @@ class ViewController: UIViewController {
 
 }
 
+
+extension DnpPopDirection{
+    func cycleDirection() -> DnpPopDirection {
+      switch self {
+      case .up:
+        return .right
+      case .right:
+        return .down
+      case .down:
+        return .left
+      case .left:
+        return .up
+      case .none:
+        return .none
+      }
+    }
+}
+extension Array {
+  func sample() -> Element {
+    let index = Int(arc4random_uniform(UInt32(count)))
+    return self[index]
+  }
+}
