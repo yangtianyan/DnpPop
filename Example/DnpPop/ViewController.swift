@@ -108,7 +108,8 @@ class ViewController: UIViewController {
             popTip.arrowRadius = 2
             popTip.bubbleColor = UIColor(red: 0.97, green: 0.9, blue: 0.23, alpha: 1)
             popTip.cornerRadius = 5
-            popTip.show(customView: containView, direction: .up, in: self.view, from: sender.frame)
+            //popTip.show(customView: containView, direction: .up, in: self.view, from: sender.frame)
+            popTip.show(customView: containView, blurView: PopBlurView(), direction: .up, in: self.view, from: sender.frame)
             print(popTip.frame)
             print(popTip.arrowPosition)
             

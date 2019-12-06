@@ -18,6 +18,7 @@
 		C1715D745E45F4DA45BCB38EDD8BE9AA /* Pods-DnpPop_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E87AC9C00FA751DA9D0E88AE0086C1 /* Pods-DnpPop_Tests-dummy.m */; };
 		C1D5009814AD4FA91D4F31A615B4D901 /* DnpPop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A859DE844E4C67851B525FF19D88E6 /* DnpPop-dummy.m */; };
 		D88DCA5E38242E046E131E233FB0AE5E /* PopTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F64DF879B8631AED41F4CF992A6F831 /* PopTip.swift */; };
+		EFBCF645239A42DB00D87E3D /* PopBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBCF644239A42DA00D87E3D /* PopBlurView.swift */; };
 		F3DDF7BFEE9DE873797C534DA6C8BF33 /* Pods-DnpPop_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5A1F83AF465FC2F843138FA4F4C697 /* Pods-DnpPop_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,7 @@
 		E10806C695C838BEB73787B2D2711EDE /* Pods-DnpPop_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DnpPop_Example-Info.plist"; sourceTree = "<group>"; };
 		E10F20250084FBF5F0A2FFC1A905BEE6 /* Pods-DnpPop_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DnpPop_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EC54C0777CBEB5ACFE1E46068368517F /* Pods-DnpPop_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DnpPop_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EFBCF644239A42DA00D87E3D /* PopBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopBlurView.swift; path = DnpPop/Classes/PopBlurView.swift; sourceTree = "<group>"; };
 		F5854008AA6235758861B6CDC49BA516 /* DnpPop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DnpPop-prefix.pch"; sourceTree = "<group>"; };
 		FE0A747FC0DA11A2179FA864A2D7DC08 /* Pods-DnpPop_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DnpPop_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -218,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				2F64DF879B8631AED41F4CF992A6F831 /* PopTip.swift */,
+				EFBCF644239A42DA00D87E3D /* PopBlurView.swift */,
 				AF731B8C6BE9F17F8D020DE134CF9113 /* PopTip+Draw.swift */,
 				2356F0DA587AA27CF1613CD21CF6B852 /* PopTip+Transitions.swift */,
 				087460B9A9EA889897E3B306613AF1EE /* Pod */,
@@ -372,6 +375,7 @@
 			files = (
 				C1D5009814AD4FA91D4F31A615B4D901 /* DnpPop-dummy.m in Sources */,
 				01A49C30C5D30B6586795E0400109136 /* PopTip+Draw.swift in Sources */,
+				EFBCF645239A42DB00D87E3D /* PopBlurView.swift in Sources */,
 				6FA2A82A10B9A3ED6571E42D0FD5F3E4 /* PopTip+Transitions.swift in Sources */,
 				D88DCA5E38242E046E131E233FB0AE5E /* PopTip.swift in Sources */,
 			);

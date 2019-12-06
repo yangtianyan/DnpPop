@@ -226,6 +226,7 @@ private let DefaultPulseOffset = CGFloat(1.1)
     fileprivate var textBounds = CGRect.zero
     fileprivate var maxWidth = CGFloat(0)
     fileprivate var customView: UIView?
+    fileprivate var blurView : PopBlurView?
     fileprivate var isApplicationInBackground: Bool?
     fileprivate var label: UILabel = {
         let label = UILabel()
@@ -452,6 +453,11 @@ private let DefaultPulseOffset = CGFloat(1.1)
         
         frame = rect
         
+        if let m_blurView = blurView {
+            m_blurView.frame = CGRect(x: 0, y: 0, width: rect.width, height: rect.height)
+            m_blurView.backgroundColor = .clear
+        }
+        
         if let customView = customView {
             customView.frame = textBounds
         }
@@ -510,6 +516,20 @@ private let DefaultPulseOffset = CGFloat(1.1)
         borderColor.setStroke()
         path.lineWidth = borderWidth
         path.stroke()
+        
+        self.blurView?.direction = direction
+        self.blurView?.arrowSize = arrowSize
+        self.blurView?.arrowPosition = arrowPosition
+        self.blurView?.arrowRadius = arrowRadius
+        self.blurView?.cornerRadius = cornerRadius
+        self.blurView?.borderWidth = borderWidth
+        self.blurView?.shadowOpacity = shadowOpacity
+        self.blurView?.shadowRadius = shadowRadius
+        self.blurView?.shadowOffset = shadowOffset
+        self.blurView?.shadowColor = shadowColor
+        self.blurView?.bubbleColor = bubbleColor
+        self.blurView?.borderColor = borderColor
+        self.blurView?.setNeedsDisplay()
         
         paragraphStyle.alignment = textAlignment
         
@@ -649,6 +669,8 @@ private let DefaultPulseOffset = CGFloat(1.1)
         }
         
         let completion = {
+            self.blurView?.removeFromSuperview()
+            self.blurView = nil
             self.customView?.removeFromSuperview()
             self.customView = nil
             self.dismissActionAnimation()
@@ -834,6 +856,27 @@ private let DefaultPulseOffset = CGFloat(1.1)
         NotificationCenter.default.removeObserver(self)
     }
     
+    open func show(customView: UIView,blurView: PopBlurView, direction: DnpPopDirection, in view: UIView, from frame: CGRect, duration: TimeInterval? = nil) {
+        resetView()
+        
+        text = nil
+        attributedText = nil
+        self.direction = direction
+        containerView = view
+        maxWidth = customView.frame.size.width
+        self.blurView?.removeFromSuperview()
+        self.blurView = blurView
+        self.insertSubview(blurView, at: 0)
+        self.customView?.removeFromSuperview()
+        self.customView = customView
+        addSubview(customView)
+        customView.layoutIfNeeded()
+        blurView.layoutIfNeeded()
+        from = frame
+        
+        show(duration: duration)
+    }
+    
     // MARK: New add method bridge object-C
     open func show(text: String, direction: DnpPopDirection, maxWidth: CGFloat, in view: UIView, from frame: CGRect) {
         show(text: text, direction: direction, maxWidth: maxWidth, in: view, from: frame, duration: nil)
@@ -845,6 +888,10 @@ private let DefaultPulseOffset = CGFloat(1.1)
     
     open func show(customView: UIView, direction: DnpPopDirection, in view: UIView, from frame: CGRect) {
         show(customView: customView, direction: direction, in: view, from: frame, duration: nil)
+    }
+    
+    open func show(customView: UIView, blurView: PopBlurView, direction: DnpPopDirection, in view: UIView, from frame: CGRect) {
+        show(customView: customView, blurView: blurView, direction: direction, in: view, from: frame,duration: nil)
     }
 }
 
